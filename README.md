@@ -13,7 +13,7 @@
 ```text
 usage: python filewatchpub.py [-h] [-m MODE] [-r ROOT] [-f FILELIST] [-p PERF]
 
-What the program does
+틀정 폴더에 파일이 추가 되는 이벤트를 감지하여 레디스에 이벤트를 전송합니다.
 
 options:
   -h, --help            show this help message and exit
