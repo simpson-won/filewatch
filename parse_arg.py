@@ -6,7 +6,7 @@ def parse_args():
     """parse args and return values."""
     parser = argparse.ArgumentParser(
             prog='python filewatchpub.py',
-            description='What the program does')
+            description='틀정 폴더에 파일이 추가 되는 이벤트를 감지하여 레디스에 이벤트를 전송합니다.')
     parser.add_argument('-m', '--mode', action='store',
             dest='mode', type=str, default='unknown',
             help="allowed : walk or dog")
