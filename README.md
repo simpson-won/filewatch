@@ -11,7 +11,7 @@
 # 실행 방법
 
 ```text
-usage: ProgramName [-h] [-m MODE] [-r ROOT] [-f FILELIST] [-p PERF]
+usage: python filewatchpub.py [-h] [-m MODE] [-r ROOT] [-f FILELIST] [-p PERF]
 
 What the program does
 
