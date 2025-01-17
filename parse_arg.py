@@ -5,7 +5,7 @@ import argparse
 def parse_args():
     """parse args and return values."""
     parser = argparse.ArgumentParser(
-            prog='ProgramName',
+            prog='python filewatchpub.py',
             description='What the program does')
     parser.add_argument('-m', '--mode', action='store',
             dest='mode', type=str, default='unknown',
